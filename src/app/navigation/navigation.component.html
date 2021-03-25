@@ -6,11 +6,10 @@
       </div>
       <ul class="navbar-nav">
         <li><a *ngIf="true" routerLink="/home" class="nav-link">Home</a></li>
-        <li><a *ngIf="true"  class="nav-link">Search</a></li>
-        <li><a *ngIf="true"  class="nav-link">My Favorites</a></li>
-        <li><a *ngIf="true"  class="nav-link">Add</a></li>
-        <li><a *ngIf="true" class="nav-link">Delete</a></li>
-        <li><a *ngIf="true" routerLink="/logout" class="nav-link">Logout</a></li>
+        <li><a *ngIf="true" routerLink="/profile" class="nav-link">My Profile</a></li>
+        <li><a *ngIf="true" routerLink="/login" class="nav-link">Login</a></li>
+        <li><a *ngIf="false" routerLink="/logout" class="nav-link">Logout</a></li>
+        <input type="text" placeholder="Search..">
       </ul>
     </nav>
   </header>
