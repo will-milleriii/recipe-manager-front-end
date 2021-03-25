@@ -9,4 +9,12 @@
   height: 40px;
   background-color: #222222;
 }
+.login-wrapper input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
